@@ -57,7 +57,7 @@ cd BookBuddy
 ### 2. Build the Backend
 
 ```powershell
-.\mvnw clean package -DskipTests
+.\mvnw clean package 
 ```
 
 The `.jar` file will be generated in the `target` directory.
@@ -102,7 +102,3 @@ BookBuddy/
 
 - Ensure the `OPENAI_API_KEY` is set before running the application.
 - The application uses OpenAI's GPT-4.1-nano for recommendations and text-embedding-3-small for embeddings.
-
-## License
-
-This project is licensed under the MIT License.
